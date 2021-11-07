@@ -1,4 +1,4 @@
 FROM python:3.6.4
-ADD . /Yaaota Task
-WORKDIR /python-flask
+ADD . /tutorial
+WORKDIR /tutorial
 RUN pip install -r requirements.txt
