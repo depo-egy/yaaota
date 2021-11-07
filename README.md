@@ -28,7 +28,7 @@ Note: Due to heavy workload , I worked on the task for 3 days instead of 5 days 
 <li>Api: used Flask </li>
 </ol>
 
-Finally , I used Docker for production-level deployment. I built dockerfile and docker-compose for such jobs.
+Finally , I used Docker for production-level deployment. I built dockerfile and docker-compose ,for defining and running multi-container Docker applications, for such jobs.
 
 ## Model:
        Model selection: used cross validation to select a model from 7 models.</br>
