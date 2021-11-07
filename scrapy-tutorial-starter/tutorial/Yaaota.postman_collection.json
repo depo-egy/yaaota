@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "a1882bb2-0adc-4fd6-b4b2-90c64ef8b1b9",
+		"name": "Yaaota",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Yaaota",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/get_category?title=Lenovo-IdeaPad+5+14ITL05+%28Intel%C2%AE+Core%E2%84%A2+i5+-+1135G7+-+8GB+-++512GBSSD+-+Intel+Iris+Xe+Graphics+-+14.0%22FHD+%29+Gray",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"get_category"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "Lenovo-IdeaPad+5+14ITL05+%28Intel%C2%AE+Core%E2%84%A2+i5+-+1135G7+-+8GB+-++512GBSSD+-+Intel+Iris+Xe+Graphics+-+14.0%22FHD+%29+Gray"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
